@@ -18,17 +18,17 @@
   <build>
     <plugins>
       <plugin>
-	<artifactId>maven-jar-plugin</artifactId>
-	<version>3.0.2</version>
-	<configuration>
-	  <archieve>
-	    <manifest>
-	      <addClasspath>true</addClasspath>
-	      <mainClass>com.example.App</mainClass>
-	    </manifest>
-	  </archieve>
-        </configuration>
-     </plugin>
+	      <artifactId>maven-jar-plugin</artifactId>
+	        <version>3.0.2</version>
+	        <configuration>
+	          <archieve>
+	            <manifest>
+	              <addClasspath>true</addClasspath>
+	              <mainClass>com.example.App</mainClass>
+	            </manifest>
+	          </archieve>
+          </configuration>
+      </plugin>
    </plugins>
  </build>	   
 </project>
